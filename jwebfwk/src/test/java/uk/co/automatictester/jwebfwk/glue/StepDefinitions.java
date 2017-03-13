@@ -17,7 +17,8 @@ public class StepDefinitions extends ParentScenario {
 
     @Before
     public void beforeScenario() {
-        startBrowser();
+//        startBrowser();
+        System.out.println("This is before class");
     }
 
     @Given("^I am on the Selenium homepage$")
@@ -35,8 +36,14 @@ public class StepDefinitions extends ParentScenario {
         assertThat(downloadPage.hasDownloadLinkFor(linkText), is(true));
     }
 
+    @Given("^I am scenario (.*) for test$")
+    public void I_am_a_scenario(String name) {
+        System.out.println("This is scenario number: " + name);
+    }
+
     @After
     public void afterScenario() {
-        closeBrowser();
+//        closeBrowser();
+        System.out.println("This is after class");
     }
 }
