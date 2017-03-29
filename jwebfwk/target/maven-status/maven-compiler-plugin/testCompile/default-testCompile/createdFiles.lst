@@ -1,8 +1,0 @@
-uk\co\automatictester\jwebfwk\page\objects\MainPage.class
-uk\co\automatictester\jwebfwk\runners\DownloadFeatureRunner_Copy.class
-uk\co\automatictester\jwebfwk\framework\ParentScenario.class
-uk\co\automatictester\jwebfwk\framework\ParentPage.class
-uk\co\automatictester\jwebfwk\runners\DownloadFeatureRunner.class
-uk\co\automatictester\jwebfwk\page\objects\DownloadPage.class
-uk\co\automatictester\jwebfwk\framework\DSL.class
-uk\co\automatictester\jwebfwk\glue\StepDefinitions.class
