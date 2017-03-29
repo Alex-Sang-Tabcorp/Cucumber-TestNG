@@ -16,7 +16,7 @@ public class StepDefinitions {
     @Before
     public void beforeScenario() {
 //        startBrowser();
-        System.out.println(">>>This is before class<<<");
+        System.out.println(">>>This is before class<<<===");
     }
 
     @Given("^I am scenario (.*) for test$")
@@ -27,6 +27,6 @@ public class StepDefinitions {
     @After
     public void afterScenario() {
 //        closeBrowser();
-        System.out.println(">>>This is after class<<<");
+        System.out.println(">>>This is after class<<<===");
     }
 }

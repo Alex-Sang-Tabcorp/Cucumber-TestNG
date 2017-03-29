@@ -62,15 +62,15 @@
       <![CDATA[<div "result">Given  I am scenario Only_Scenario_from_FeatureList2 for test (passed : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Test runner" duration-ms="304" started-at="2017-03-29T04:31:56Z" finished-at="2017-03-29T04:31:56Z">
+  <suite name="Test runner" duration-ms="322" started-at="2017-03-29T04:33:48Z" finished-at="2017-03-29T04:33:48Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:Sample.runners.FirstRunner@35f983a6]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Package with subpackages" duration-ms="304" started-at="2017-03-29T04:31:56Z" finished-at="2017-03-29T04:31:56Z">
+    <test name="Package with subpackages" duration-ms="322" started-at="2017-03-29T04:33:48Z" finished-at="2017-03-29T04:33:48Z">
       <class name="Sample.runners.FirstRunner">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Sample.runners.FirstRunner@35f983a6]" name="run_cukes" duration-ms="291" started-at="2017-03-29T15:31:56Z" description="Runs Cucumber Features" finished-at="2017-03-29T15:31:56Z">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Sample.runners.FirstRunner@35f983a6]" name="run_cukes" duration-ms="307" started-at="2017-03-29T15:33:48Z" description="Runs Cucumber Features" finished-at="2017-03-29T15:33:48Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: FeatureList1&#x2F;Feature1-1.feature</div>]]>
