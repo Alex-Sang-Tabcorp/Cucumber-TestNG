@@ -8,7 +8,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = "src/test/resources/features",
         glue = "uk.co.automatictester.jwebfwk.glue",
-        format = {"pretty"},
-        tags = {"@alextest"})
+        format = {"pretty"}
+//        tags = {"@alextest"}
+        )
 public class FirstRunner extends AbstractTestNGCucumberTests {
 }
