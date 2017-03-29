@@ -1,2 +1,4 @@
+Sample/runners/FirstChildRunner/FirstChildRunner.class
+Sample/runners/SecondChildRunner/SecondChildRunner.class
 Sample/glue/StepDefinitions.class
-Sample/runners/FirstRunner.class
+Sample/runners/ParentRunner.class

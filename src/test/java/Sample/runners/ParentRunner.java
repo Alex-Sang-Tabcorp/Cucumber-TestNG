@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(features = "src/test/resources/features",
         glue = "Sample.glue",
         format = {"pretty"}
-//        tags = {"@alextest"}
-        )
-public class FirstRunner extends AbstractTestNGCucumberTests {
+//        tags = {"@FirstChildRunner"}
+)
+public class ParentRunner extends AbstractTestNGCucumberTests {
 }
