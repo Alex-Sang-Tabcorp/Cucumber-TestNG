@@ -1,7 +1,2 @@
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/framework/ParentPage.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/framework/ParentScenario.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/page/objects/DownloadPage.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/glue/StepDefinitions.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/page/objects/MainPage.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/runners/FirstRunner.java
-/Users/sanga/Documents/Cucumber-TestNG/src/test/java/uk/co/automatictester/jwebfwk/framework/DSL.java
+/Users/sanga/Documents/Cucumber-TestNG/src/test/java/Sample/glue/StepDefinitions.java
+/Users/sanga/Documents/Cucumber-TestNG/src/test/java/Sample/runners/FirstRunner.java

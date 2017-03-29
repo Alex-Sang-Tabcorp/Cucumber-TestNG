@@ -1,10 +1,10 @@
-Feature: Feature 2-1
+Feature: Feature Two from List 1
 
-  Scenario: Scenario 1-2-1
-    Given I am scenario 1-2-1 for test
+  Scenario: Scenario
+    Given I am scenario Scenario1_Feature2_List1 for test
 
-  Scenario: Scenario 2-2-1
-    Given I am scenario 2-2-1 for test
+  Scenario: Scenario
+    Given I am scenario Scenario2_Feature2_List1 for test
 
-  Scenario: Scenario 3-2-1
-    Given I am scenario 3-2-1 for test
+  Scenario: Scenario
+    Given I am scenario Scenario3_Feature2_List1 for test

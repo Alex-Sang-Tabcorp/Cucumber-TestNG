@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Test_runner">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_runner" title="uk.co.automatictester.jwebfwk.runners.FirstRunner" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_runner" title="Sample.runners.FirstRunner" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_runner -->
@@ -119,7 +119,7 @@
           <div class="suite-Test_runner-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">uk.co.automatictester.jwebfwk.runners.FirstRunner</span>
+              <span class="class-name">Sample.runners.FirstRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -145,10 +145,10 @@
 &lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Test runner&quot; parallel=&quot;classes&quot;&gt;
   &lt;test name=&quot;Package with subpackages&quot;&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;uk.co.automatictester.jwebfwk.runners&quot;/&gt;
+      &lt;package name=&quot;Sample.runners&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;uk.co.automatictester.jwebfwk.runners.FirstRunner&quot;/&gt;
+      &lt;class name=&quot;Sample.runners.FirstRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Package with subpackages --&gt;
 &lt;/suite&gt; &lt;!-- Test runner --&gt;
@@ -199,13 +199,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'run_cukes')
-data.setCell(0, 2, 'uk.co.automatictester.jwebfwk.runners.FirstRunner')
-data.setCell(0, 3, 280);
+data.setCell(0, 2, 'Sample.runners.FirstRunner')
+data.setCell(0, 3, 291);
 window.suiteTableData['Test_runner']= { tableData: data, tableDiv: 'times-div-Test_runner'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 280 ms</span>
+              <span class="suite-total-time">Total running time: 291 ms</span>
               <div id="times-div-Test_runner">
               </div> <!-- times-div-Test_runner -->
             </div> <!-- times-div -->
@@ -227,6 +227,18 @@ return data;
                 <span class="reporter-method-output"><div "result">Given  I am scenario Scenario2_Feature1_List1 for test (passed : 0s)</div></span>
                 <span class="reporter-method-output"><div "scenario">Scenario: Scenario</div></span>
                 <span class="reporter-method-output"><div "result">Given  I am scenario Alex for test (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "featureFile">Feature File: FeatureList1&#x2F;Feature2-1.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: Feature Two from List 1</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Scenario</div></span>
+                <span class="reporter-method-output"><div "result">Given  I am scenario Scenario1_Feature2_List1 for test (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Scenario</div></span>
+                <span class="reporter-method-output"><div "result">Given  I am scenario Scenario2_Feature2_List1 for test (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Scenario</div></span>
+                <span class="reporter-method-output"><div "result">Given  I am scenario Scenario3_Feature2_List1 for test (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "featureFile">Feature File: FeatureList2&#x2F;Feature1-2.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: Feature One from List 2</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Scenario</div></span>
+                <span class="reporter-method-output"><div "result">Given  I am scenario Only_Scenario_from_FeatureList2 for test (passed : 0s)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,7 +256,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">uk.co.automatictester.jwebfwk.runners.FirstRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Sample.runners.FirstRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">run_cukes</span>
                 <span class="method-start">0 ms</span>
