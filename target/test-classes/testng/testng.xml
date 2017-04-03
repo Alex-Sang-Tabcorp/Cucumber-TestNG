@@ -5,7 +5,7 @@
             <!--<package name="Sample.runners.FirstChildRunner"/>-->
             <!--<package name="Sample.runners.SecondChildRunner"/>-->
             <package name="Sample.runners"/>
-            <package name="Sample.runners.*"/>
+            <!--<package name="Sample.runners.*"/>-->
         </packages>
     </test>
 </suite>
